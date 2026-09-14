@@ -1,0 +1,123 @@
+---
+layout: default
+title: "home"
+---
+
+this website serves, in part, as a system of record for my online identity. site updates to come.
+
+- **email:** contact@koryhayward.net
+- **signal:** kory.07
+- **github:** koryhayward
+- **bluesky:** @koryhayward.net
+- **instagram:** koryhayward (archived 2026-05-01)
+
+**pgp public key** *(expires 2027-02-20)*
+
+> -----BEGIN PGP PUBLIC KEY BLOCK-----
+> 
+> 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
+> 
+> AD8BDwPPUtHiTMqBHQ==
+> 
+> =KHIv
+> 
+> -----END PGP PUBLIC KEY BLOCK-----
+
+
+©2026 kory hayward, [cc by-nc](https://creativecommons.org/licenses/by-nc/4.0/)
+
+last update: 2026-09-13
+
+
