@@ -4,11 +4,11 @@ title: "home"
 ---
 this website serves, in part, as a system of record for my online identity. site updates to come.
 
-- **email:** contact@koryhayward.net
-- **signal:** kory.07
-- **github:** koryhayward
-- **bluesky:** @koryhayward.net
-- **instagram:** koryhayward (archived 2026-05-01)
+- **email:** [contact@koryhayward.net](mailto:contact@koryhayward.net)
+- **signal:** [ask via email](mailto:contact@koryhayward.net?subject=signal)
+- **github:** [koryhayward](https://github.com/koryhayward/)
+- **bluesky:** [@koryhayward.net](https://bsky.app/profile/koryhayward.net)
+- **instagram:** [koryhayward](https://www.instagram.com/koryhayward) (archived 2026-05-01)
 
 <details>
 <summary>pgp public key (expires 2027-02-20)</summary>
