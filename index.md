@@ -2,7 +2,6 @@
 layout: default
 title: "home"
 ---
-
 this website serves, in part, as a system of record for my online identity. site updates to come.
 
 - **email:** contact@koryhayward.net
