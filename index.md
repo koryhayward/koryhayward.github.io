@@ -5,7 +5,7 @@ title: "home"
 this website serves, in part, as a system of record for my online identity. site updates to come.
 
 - **email:** [contact@koryhayward.net](mailto:contact@koryhayward.net)
-- **signal:** [ask via email](mailto:contact@koryhayward.net?subject=signal)
+- **signal:** ask via email
 - **github:** [koryhayward](https://github.com/koryhayward/)
 - **bluesky:** [@koryhayward.net](https://bsky.app/profile/koryhayward.net)
 - **instagram:** [koryhayward](https://www.instagram.com/koryhayward) (archived 2026-05-01)
