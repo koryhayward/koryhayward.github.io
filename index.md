@@ -12,7 +12,7 @@ this website serves, in part, as a system of record for my online identity. site
 
 <details>
 <summary>pgp public key (expires 2027-02-20)</summary>
-<pre><code>—–BEGIN PGP PUBLIC KEY BLOCK—–
+<pre>—–BEGIN PGP PUBLIC KEY BLOCK—–
 mQINBGmYtTEBEAC/S/Yj07aUC1e1XtshoMhX4dVohLJYM3JEYPYNyuiJ8CbaXHH6
 sSxQPkmlpK5ZFZvJ4TSO+H8+0ttdoCqaEXDIQ9BRTCZ9e9ZC9azgg2RmcwEFA6Zk
 R7uZ5ZKtBr4SSaM5CV1KW7juoW37va9mL7W2zgUoSt54+eMnLCFRTO0UP0hhUcRG
@@ -62,12 +62,5 @@ eMrf1fg9dflXT8X3j2Ytb8HCjjHSAzXY7lB0CfvDsX5y13VHknpX4JyeeFjBjlTp
 2I115uio+Zexb+VVEYvXnbsjHKhjSX3acrCa6LI7z59E33w12pJ/t6FjCTY6uPXG
 AD8BDwPPUtHiTMqBHQ==
 =KHIv
-—–END PGP PUBLIC KEY BLOCK—–</code></pre>
+—–END PGP PUBLIC KEY BLOCK—–</pre>
 </details>
-
-
-©2026 kory hayward, [cc by-nc](https://creativecommons.org/licenses/by-nc/4.0/)
-
-last update: 2026-09-14
-
-
