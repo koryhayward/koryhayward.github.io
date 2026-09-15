@@ -3,7 +3,6 @@ layout: default
 title: bookshelf
 permalink: /bookshelf/
 ---
-# bookshelf
 
 This is my personal bookshelf, a reverse-chronological log of my reading habits — tracking the ideas, stories, and concepts shaping my perspective.
 
