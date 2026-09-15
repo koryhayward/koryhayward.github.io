@@ -4,11 +4,11 @@ title: bookshelf
 permalink: /bookshelf/
 ---
 
-This is my personal bookshelf, a reverse-chronological log of my reading habits — tracking the ideas, stories, and concepts shaping my perspective.
+this is my personal bookshelf, a reverse-chronological log of my reading habits — tracking the ideas, stories, and concepts shaping my perspective.
 
-I've always felt that the best way to get to know someone is to look at their bookshelf, so consider this a look into mine (I've kept a list of all the books I've read for nearly two decades, and I plan to include those, too).
+i've always felt that the best way to get to know someone is to look at their bookshelf, so consider this a look into mine. 
 
-If you see something you love (or hate), let me know; I'm always looking for my next read.
+if you see something you love (or hate), let me know; i'm always looking for my next read.
 
 ---
 
