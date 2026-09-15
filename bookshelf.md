@@ -8,7 +8,7 @@ this is my personal bookshelf, a reverse-chronological log of my reading habits 
 
 i've always felt that the best way to get to know someone is to look at their bookshelf, so consider this a look into mine. 
 
-if you see something you love (or hate), let me know; i'm always looking for my next read.
+if you see something you love (or hate), let me know. think i have a blindspot? shoot me your recommendation(s); i'm always looking for my next read.
 
 ---
 
