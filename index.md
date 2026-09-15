@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "home"
+title: "kory hayward"
 ---
 this website serves, in part, as a system of record for my online identity. site updates to come.
 
