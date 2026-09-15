@@ -14,6 +14,7 @@ if you see something you love (or hate), let me know. think i have a blindspot? 
 
 ## **2026**
 
+- [A Little Life](https://openlibrary.org/books/OL28135931M/A_Little_Life)
 - [Regime Change: Inside the Imperial Presidency of Donald Trump](https://openlibrary.org/works/OL45361467W/Regime_Change?edition=key%3A/books/OL62199560M)
 - [The Modern Political Tradition: Hobbes to Habermas](https://openlibrary.org/works/OL30158426W/The_Modern_Political_Tradition?edition=key%3A/books/OL41452426M)
 - [Strangers](https://openlibrary.org/works/OL44815782W/Strangers?edition=key%3A/books/OL61179946M)
