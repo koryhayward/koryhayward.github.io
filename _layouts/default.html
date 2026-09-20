@@ -3,11 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }}</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="pgpkey" type="application/pgp-keys" href="/pgp.asc">
+  <title>{% if page.url != "/" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <style>
     :root {
-      --bg-color: #ffffff;
-      --text-color: #000000;
+      color-scheme: light dark;
+      --bg-color: #fafafa;
+      --text-color: #111111;
       --link-color: #0000ee;
       --border-color: #cccccc;
     }
@@ -28,30 +34,43 @@
       padding: 0 1rem;
       font-family: 'Times New Roman', serif;
       line-height: 1.4;
+      overflow-wrap: break-word;
+      hyphens: auto;
       -webkit-text-size-adjust: 100%;
       text-size-adjust: 100%;
     }
-    
+
     a { color: var(--link-color); }
+    a:focus-visible, summary:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+    a[aria-current="page"] { color: inherit; text-decoration: none; }
     hr { border: 0; border-top: 1px solid var(--border-color); }
-    
+
     pre {
       font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, monospace;
       font-size: 0.85rem;
-      white-space: pre-wrap;       
-      word-wrap: break-word;       
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      hyphens: none;
       background-color: transparent;
       padding: 0.5rem 0;
+    }
+
+    @media print {
+      nav, nav + hr, footer, footer hr { display: none; }
+      body { max-width: none; margin: 0; }
+      a { color: inherit; }
     }
   </style>
 </head>
 <body>
   <nav>
-    <a href="/">home</a> | <a href="/bookshelf/">bookshelf</a>
+    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>home</a> | <a href="/bookshelf/"{% if page.url == "/bookshelf/" %} aria-current="page"{% endif %}>bookshelf</a>
   </nav>
   <hr>
-  {{ content }}
-  
+  <main>
+    {{ content }}
+  </main>
+
   {% include footer.html %}
 </body>
 </html>

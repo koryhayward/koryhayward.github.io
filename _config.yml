@@ -1,3 +1,9 @@
-url: "https://koryhayward.net" 
+url: "https://koryhayward.net"
 baseurl: ""
-title: "Kory Hayward"
+title: "kory hayward"
+description: "personal site of kory hayward: contact, pgp key, and bookshelf."
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - .github
