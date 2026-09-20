@@ -4,7 +4,7 @@ title: "kory hayward"
 ---
 
 - **email:** [kory@koryhayward.net](mailto:kory@koryhayward.net)
-- **signal:** kory.07
+- **signal:** [kory.07](https://signal.me/#eu/_pmerHTLt_t9tO-zq92fDGMLB0HceQiPQMU1Tz0WWJv1L3SGObxGhpNEqDyio4aN)
 - **github:** [koryhayward](https://github.com/koryhayward/){:rel="me"}
 - **bluesky:** [@koryhayward.net](https://bsky.app/profile/koryhayward.net){:rel="me"}
 - **instagram:** [koryhayward](https://www.instagram.com/koryhayward) (archived 2026-05-01)
