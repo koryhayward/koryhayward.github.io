@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /readings.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>{{ "/readings.xml" | absolute_url }}</id>
+  <title>{{ site.title | xml_escape }}: readings</title>
+  <link rel="self" type="application/atom+xml" href="{{ "/readings.xml" | absolute_url }}"/>
+  <link rel="alternate" type="text/html" href="{{ "/readings/" | absolute_url }}"/>
+  {% assign latest = site.data.readings | first %}
+  <updated>{% if latest %}{{ latest.read }}T00:00:00Z{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</updated>
+  <author><name>{{ site.title | xml_escape }}</name></author>
+{% for r in site.data.readings limit: 50 %}  <entry>
+    <id>{{ r.url | xml_escape }}</id>
+    <title>{{ r.title | xml_escape }}</title>
+    <link rel="alternate" type="text/html" href="{{ r.url | xml_escape }}"/>
+    <updated>{{ r.read }}T00:00:00Z</updated>
+{% if r.published %}    <published>{{ r.published }}T00:00:00Z</published>
+{% endif %}{% for a in r.authors %}    <author><name>{{ a | xml_escape }}</name></author>
+{% endfor %}{% for t in r.tags %}    <category term="{{ t | xml_escape }}"/>
+{% endfor %}    <summary type="text">{% assign pub = r.publication | default: r.source %}{% assign by = r.authors | array_to_sentence_string %}{% if r.authors.size > 0 and by != pub %}{{ by | xml_escape }} in {% endif %}{{ pub | xml_escape }}</summary>
+  </entry>
+{% endfor %}</feed>

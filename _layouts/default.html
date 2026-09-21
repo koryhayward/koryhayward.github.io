@@ -7,6 +7,7 @@
   <meta name="referrer" content="no-referrer">
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" type="application/atom+xml" title="readings" href="/readings.xml">
   <link rel="pgpkey" type="application/pgp-keys" href="/pgp.asc">
   <title>{% if page.url != "/" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <style>
@@ -55,6 +56,14 @@
       padding: 0.5rem 0;
     }
 
+    blockquote {
+      border-left: 3px solid var(--border-color);
+      margin: 1.5rem 0;
+      padding: 0 1rem;
+    }
+    blockquote p { margin: 0; }
+    blockquote small { font-style: italic; opacity: 0.75; }
+
     @media print {
       nav, nav + hr, footer, footer hr { display: none; }
       body { max-width: none; margin: 0; }
@@ -64,7 +73,7 @@
 </head>
 <body>
   <nav>
-    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>home</a> | <a href="/bookshelf/"{% if page.url == "/bookshelf/" %} aria-current="page"{% endif %}>bookshelf</a>
+    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>home</a> | <a href="/bookshelf/"{% if page.url == "/bookshelf/" %} aria-current="page"{% endif %}>bookshelf</a> | <a href="/readings/"{% if page.url == "/readings/" %} aria-current="page"{% endif %}>readings</a>
   </nav>
   <hr>
   <main>
