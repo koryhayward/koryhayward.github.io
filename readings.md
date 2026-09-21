@@ -4,7 +4,7 @@ title: readings
 permalink: /readings/
 ---
 
-things i've read and chose to share, newest first. [subscribe via atom](/readings.xml)
+things i've read shorter than a [book](/bookshelf/) and chose to share, newest first. [subscribe via atom](/readings.xml)
 
 {% assign readings = site.data.readings %}
 {% if readings == nil or readings.size == 0 %}
