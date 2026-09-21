@@ -19,6 +19,6 @@ permalink: /readings.xml
 {% if r.published %}    <published>{{ r.published }}T00:00:00Z</published>
 {% endif %}{% for a in r.authors %}    <author><name>{{ a | xml_escape }}</name></author>
 {% endfor %}{% for t in r.tags %}    <category term="{{ t | xml_escape }}"/>
-{% endfor %}    <summary type="text">{% assign pub = r.publication | default: r.source %}{% assign by = r.authors | array_to_sentence_string %}{% if r.authors.size > 0 and by != pub %}{{ by | xml_escape }} in {% endif %}{{ pub | xml_escape }}</summary>
+{% endfor %}    <summary type="text">{% assign pub = r.publication | default: r.source %}{% if r.authors.size > 0 %}{% assign by = r.authors | array_to_sentence_string %}{% else %}{% assign by = "" %}{% endif %}{% if by != "" and by != pub %}{{ by | xml_escape }} in {% endif %}{{ pub | xml_escape }}</summary>
   </entry>
 {% endfor %}</feed>
