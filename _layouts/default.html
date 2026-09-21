@@ -73,7 +73,7 @@
 </head>
 <body>
   <nav>
-    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>home</a> | <a href="/bookshelf/"{% if page.url == "/bookshelf/" %} aria-current="page"{% endif %}>bookshelf</a> | <a href="/readings/"{% if page.url == "/readings/" %} aria-current="page"{% endif %}>readings</a>
+    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>home</a> | <a href="/bookshelf/"{% if page.url == "/bookshelf/" %} aria-current="page"{% endif %}>bookshelf</a> | <a href="/readings/"{% if page.url contains "/readings/" %} aria-current="page"{% endif %}>readings</a>
   </nav>
   <hr>
   <main>

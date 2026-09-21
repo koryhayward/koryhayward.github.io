@@ -2,6 +2,7 @@ url: "https://koryhayward.net"
 baseurl: ""
 title: "kory hayward"
 description: "personal site of kory hayward: contact, pgp key, and bookshelf."
+readings_per_page: 10
 exclude:
   - CLAUDE.md
   - Gemfile
