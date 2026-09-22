@@ -3,6 +3,8 @@ layout: default
 title: "kory hayward"
 ---
 
+heya! thanks for stopping by. this website serves, in part, as a system of record for my online identity. it's a work-in-progress; so, for now, checkout what i've been reading ([books](/bookshelf), [articles](/readings)). 
+
 - **email:** [kory@koryhayward.net](mailto:kory@koryhayward.net)
 - **signal:** ask via email
 - **github:** [koryhayward](https://github.com/koryhayward/){:rel="me"}
