@@ -13,7 +13,7 @@ heya! thanks for stopping by. this website serves, in part, as a system of recor
 - **threads:** [koryhayward](https://www.threads.com/@koryhayward) (archived: 2026-05-01)
 
 <details>
-<summary>pgp public key (expires 2027-02-20)</summary>
+<summary>pgp public key</summary>
 
 <p>fingerprint: <code>EA40 A08F D253 56F5 4CE5 D3AB B10D 8967 EE71 860A</code></p>
 <p>download: <a href="/pgp.asc">pgp.asc</a></p>
