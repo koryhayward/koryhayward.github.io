@@ -10,7 +10,8 @@ if you see something you love (or hate), let me know. think i have a blindspot? 
 
 ---
 
-## **2026**
+<details markdown="1">
+<summary><h2>2026</h2></summary>
 
 - [A Little Life](https://openlibrary.org/books/OL28135931M/A_Little_Life)
 - [Regime Change: Inside the Imperial Presidency of Donald Trump](https://openlibrary.org/works/OL45361467W/Regime_Change?edition=key%3A/books/OL62199560M)
@@ -28,7 +29,10 @@ if you see something you love (or hate), let me know. think i have a blindspot? 
 - [The Jakarta Method: _Washington's Anticommunist Crusade and the Mass Murder Program that Shaped Our World_](https://openlibrary.org/works/OL20781307W/The_Jakarta_Method?edition=key%3A/books/OL30924068M)
 - [The Society of the Spectacle](https://openlibrary.org/books/OL8391114M/Society_of_the_Spectacle)
 
-## **2025**
+</details>
+
+<details markdown="1">
+<summary><h2>2025</h2></summary>
 
 - [Heated Rivalry](https://openlibrary.org/works/OL25434351W/Heated_Rivalry?edition=key:/books/OL48806102M)
 - [Everything is Tuberculosis: The History and Persistence of Our Deadliest Infection](https://openlibrary.org/works/OL42401064W/Everything_Is_Tuberculosis?edition=key%3A/books/OL57592161M)
@@ -55,5 +59,7 @@ if you see something you love (or hate), let me know. think i have a blindspot? 
 - [Dawnshard](https://openlibrary.org/works/OL24139894W/Dawnshard?edition=key%3A/books/OL35036035M)
 - [Oathbringer](https://openlibrary.org/works/OL17834026W/Oathbringer?edition=key%3A/books/OL57480882M)
 - [Edgedancer](https://openlibrary.org/works/OL19631308W/Edgedancer?edition=key%3A/books/OL57480804M)
-- [Words of Radiance](https://openlibrary.org/works/OL16813053W/Words_of_Radiance?edition=key%3A/books/OL27948034M)    
+- [Words of Radiance](https://openlibrary.org/works/OL16813053W/Words_of_Radiance?edition=key%3A/books/OL27948034M)
 - [The Way of Kings](https://openlibrary.org/works/OL15358691W/The_Way_of_Kings?edition=key%3A/books/OL24383834M)
+
+</details>
