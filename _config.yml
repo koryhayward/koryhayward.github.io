@@ -3,6 +3,7 @@ baseurl: ""
 title: "kory hayward"
 description: "personal site of kory hayward: contact, pgp key, and bookshelf."
 readings_per_page: 10
+resume: false
 exclude:
   - CLAUDE.md
   - Gemfile

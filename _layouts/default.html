@@ -68,7 +68,7 @@
     blockquote small { font-style: italic; opacity: 0.75; }
 
     @media print {
-      nav, nav + hr, footer, footer hr { display: none; }
+      nav, nav + hr, footer, footer hr, .no-print { display: none; }
       body { max-width: none; margin: 0; }
       a { color: inherit; }
     }
@@ -76,7 +76,7 @@
 </head>
 <body>
   <nav>
-    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>home</a> | <a href="/bookshelf/"{% if page.url == "/bookshelf/" %} aria-current="page"{% endif %}>bookshelf</a> | <a href="/readings/"{% if page.url contains "/readings/" %} aria-current="page"{% endif %}>readings</a> | <a href="/resume/"{% if page.url == "/resume/" %} aria-current="page"{% endif %}>résumé</a>
+    <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>home</a> | <a href="/bookshelf/"{% if page.url == "/bookshelf/" %} aria-current="page"{% endif %}>bookshelf</a> | <a href="/readings/"{% if page.url contains "/readings/" %} aria-current="page"{% endif %}>readings</a>{% if site.resume %} | <a href="/resume/"{% if page.url == "/resume/" %} aria-current="page"{% endif %}>résumé</a>{% endif %}
   </nav>
   <hr>
   <main>

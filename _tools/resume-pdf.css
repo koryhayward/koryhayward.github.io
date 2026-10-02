@@ -1,0 +1,12 @@
+@page { size: letter; margin: 0.6in 0.7in; background: #ffffff; }
+html, body { background: #ffffff !important; color: #111111 !important; }
+body { font-size: 10.5pt !important; line-height: 1.3 !important; hyphens: manual !important; margin: 0 !important; padding: 0 !important; max-width: none !important; }
+a { color: #111111 !important; }
+h1 { font-size: 20pt; margin: 0 0 4pt; }
+h2 { font-size: 12.5pt; margin: 12pt 0 4pt; padding-bottom: 2pt; border-bottom: 0.5pt solid #999999; }
+h3 { font-size: 11pt; margin: 8pt 0 2pt; }
+p { margin: 3pt 0; }
+ul { margin: 3pt 0; padding-left: 16pt; }
+li { margin: 1.5pt 0; break-inside: avoid; }
+h2, h3 { break-after: avoid; }
+nav, nav + hr, main + hr, footer, .no-print { display: none !important; }
