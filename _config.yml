@@ -6,6 +6,7 @@ readings_per_page: 10
 resume: false
 exclude:
   - CLAUDE.md
+  - README.md
   - Gemfile
   - Gemfile.lock
   - .github
