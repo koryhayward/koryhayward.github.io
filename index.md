@@ -8,9 +8,10 @@ heya, i'm kory. this domain is my home base on the web. i read a lot about techn
 this site is also the system of record for my online identity: my bluesky handle is koryhayward.net, and if an account isn't listed below, it isn't me.
 
 - **email:** [kory@koryhayward.net](mailto:kory@koryhayward.net)
-- **signal:** ask via email
+- **signal:** [kory.07](https://signal.me/#eu/G9vikAmAx94sJYcK0MVa9NHLSBWGGeNLzSC5misvdxQ_uE-ZF7BNnJsmGqqp1QgK)
 - **github:** [koryhayward](https://github.com/koryhayward/){:rel="me"}
 - **bluesky:** [@koryhayward.net](https://bsky.app/profile/koryhayward.net){:rel="me"}
+- **youtube:** [@koryhayward](https://www.youtube.com/@koryhayward){:rel="me"}
 - **instagram:** [koryhayward](https://www.instagram.com/koryhayward) (archived 2026-05-01)
 - **threads:** [koryhayward](https://www.threads.com/@koryhayward) (archived: 2026-05-01)
 
