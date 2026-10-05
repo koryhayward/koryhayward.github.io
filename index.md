@@ -3,7 +3,9 @@ layout: default
 title: "kory hayward"
 ---
 
-heya! thanks for stopping by. this website serves, in part, as a system of record for my online identity. it's a work-in-progress; so, for now, check out what i've been reading ([books](/bookshelf), [articles](/readings)).
+heya, i'm kory. this domain is my home base on the web. i read a lot about technology, law, and politics, and i keep what's worth sharing here: [books](/bookshelf) and [articles](/readings).
+
+this site is also the system of record for my online identity: my bluesky handle is koryhayward.net, and if an account isn't listed below, it isn't me.
 
 - **email:** [kory@koryhayward.net](mailto:kory@koryhayward.net)
 - **signal:** ask via email
