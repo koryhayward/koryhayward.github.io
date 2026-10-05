@@ -5,7 +5,7 @@ title: "kory hayward"
 
 heya, i'm kory. this domain is my home base on the web. i read a lot about technology, law, and politics, and i keep what's worth sharing here: [books](/bookshelf) and [articles](/readings).
 
-this site is also the system of record for my online identity: my bluesky handle is koryhayward.net, and if an account isn't listed below, it isn't me.
+this site is also the system of record for my online identity. if an account isn't listed below, it isn't me.
 
 - **email:** [kory@koryhayward.net](mailto:kory@koryhayward.net)
 - **signal:** [kory.07](https://signal.me/#eu/G9vikAmAx94sJYcK0MVa9NHLSBWGGeNLzSC5misvdxQ_uE-ZF7BNnJsmGqqp1QgK)
