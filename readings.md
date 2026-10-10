@@ -21,7 +21,7 @@ nothing here yet.
 {% endfor %}
 {% if page.readings_pages > 1 %}
 <nav aria-label="readings pages">
-{% if page.readings_page > 1 %}{% assign prev = page.readings_page | minus: 1 %}<a href="{% if prev == 1 %}/readings/{% else %}/readings/page/{{ prev }}/{% endif %}" rel="prev">&larr; newer</a> | {% endif %}{% for n in (1..page.readings_pages) %}{% if n == page.readings_page %}<span aria-current="page">{{ n }}</span>{% else %}<a href="{% if n == 1 %}/readings/{% else %}/readings/page/{{ n }}/{% endif %}">{{ n }}</a>{% endif %}{% unless forloop.last %}{{ " " }}{% endunless %}{% endfor %}{% if page.readings_page < page.readings_pages %}{% assign next = page.readings_page | plus: 1 %} | <a href="/readings/page/{{ next }}/" rel="next">older &rarr;</a>{% endif %}
+{% if page.readings_page > 1 %}{% assign prev = page.readings_page | minus: 1 %}<a href="{% if prev == 1 %}/readings/{% else %}/readings/page/{{ prev }}/{% endif %}" rel="prev">&larr; newer</a> | {% endif %}{% for n in page.readings_pager %}{% if n == nil %}&hellip;{% elsif n == page.readings_page %}<span aria-current="page">{{ n }}</span>{% else %}<a href="{% if n == 1 %}/readings/{% else %}/readings/page/{{ n }}/{% endif %}">{{ n }}</a>{% endif %}{% unless forloop.last %}{{ " " }}{% endunless %}{% endfor %}{% if page.readings_page < page.readings_pages %}{% assign next = page.readings_page | plus: 1 %} | <a href="/readings/page/{{ next }}/" rel="next">older &rarr;</a>{% endif %}
 </nav>
 {% endif %}
 {% endif %}
